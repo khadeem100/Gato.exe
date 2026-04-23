@@ -17,10 +17,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          del package-lock.json
+          npm install
 
       - name: Build React app
         run: npx vite build
