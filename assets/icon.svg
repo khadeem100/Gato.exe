@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="80" fill="#0a0a0a"/>
+  <text x="256" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="120" fill="#ffffff">GATO</text>
+  <text x="256" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-weight="300" font-size="60" fill="#737373">SPORTS</text>
+  <rect x="120" y="370" width="272" height="3" rx="1.5" fill="#404040"/>
+  <text x="256" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-weight="500" font-size="36" fill="#525252">SALES REP</text>
+</svg>
