@@ -1,4 +1,4 @@
-const API_BASE = "https://gato-companion.gato-international.com/salesrep";
+const API_BASE = "https://filomena-basipetal-unnationalistically.ngrok-free.dev/salesrep";
 
 class ApiClient {
   constructor() {
@@ -18,6 +18,7 @@ class ApiClient {
     const url = `${API_BASE}${endpoint}`;
     const headers = {
       "Content-Type": "application/json",
+      "ngrok-skip-browser-warning": "1",
       ...options.headers,
     };
     if (this.token) {
